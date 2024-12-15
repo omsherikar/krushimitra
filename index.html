@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KRUSHIMITRA-HOME</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800">
+  <link rel="stylesheet" href="index.css">
+  <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+  rel="stylesheet">
+
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">KRUSHIMITRA</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="knowledge.html">Knowledge</a></li>
+        <li><a href="finance.html">Financial Planning</a></li>
+        <li><a href="supply_chain.html">Supply Chain</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Welcome to KRUSHIMITRA</h1>
+      <p>Empowering Farmers with Knowledge, Planning, and Resources.</p>
+      <a href="knowledge.html" class="cta-button">Get Started</a>
+    </section>
+
+    <section id="weather-section">
+      <div class="weather-info">
+        <h2>Current Weather</h2>
+        <div id="weather-info">
+          <p>Loading weather information...</p>
+        </div>
+      </div>
+      <div>
+        <video autoplay loop muted style="max-width: 500px;">
+          <source src="https://cdn.pixabay.com/video/2023/06/27/169020-840229949_large.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="whatsapp-popup" onclick="openWhatsApp()">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo">
+    </div>
+    
+    </section>
+
+    <section class="testimonials-section">
+      <h2>What Farmers Are Saying</h2>
+      <div class="testimonials">
+        <div class="testimonial">
+          <p>"FarmEase helped me plan my finances and boost my crop yield!" - Ramesh, Farmer</p>
+        </div>
+        <div class="testimonial">
+          <p>"The supply chain feature is amazing. My produce reaches buyers faster!" - Meena, Farmer</p>
+        </div>
+        <div class="testimonial">
+          <p>"Knowledge Hub is a treasure trove. I've learned so much about sustainable farming!" - Akshay, Farmer</p>
+        </div>
+      </div>
+    </section>
+    <section id="why-choose-us" style="padding: 50px; background: #f9f9f9;">
+      <div style="max-width: 1200px; margin: 0 auto; text-align: center;">
+        <h2 style="color: #4caf50;">Why Choose KRUSHIMITRA?</h2>
+        <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 20px;">
+          
+          <div class="why-item" style="flex: 1; min-width: 250px; padding: 20px; background: white; border-radius: 10px; 
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s;">
+            <h3>🌱 Comprehensive Knowledge</h3>
+            <p>Access a treasure trove of farming techniques, sustainable practices, and expert advice at your fingertips.</p>
+          </div>
+    
+          <div class="why-item" style="flex: 1; min-width: 250px; padding: 20px; background: white; border-radius: 10px; 
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s;">
+            <h3>💼 Financial Planning</h3>
+            <p>Smart tools and insights to help farmers budget, plan, and grow their incomes effectively.</p>
+          </div>
+    
+          <div class="why-item" style="flex: 1; min-width: 250px; padding: 20px; background: white; border-radius: 10px; 
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s;">
+            <h3>🚜 Efficient Supply Chain</h3>
+            <p>Streamlined connections between farmers, buyers, and distributors for faster, more profitable trade.</p>
+          </div>
+    
+          <div class="why-item" style="flex: 1; min-width: 250px; padding: 20px; background: white; border-radius: 10px; 
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s;">
+            <h3>🤝 Farmer-Centric Solutions</h3>
+            <p>Our platform is built for farmers, keeping their needs, challenges, and dreams at the center.</p>
+          </div>
+    
+        </div>
+      </div>
+    </section>
+        
+    <section id="about-us" style="padding: 50px; background: url('https://www.transparenttextures.com/patterns/arches.png');">
+      <div style="max-width: 1200px; margin: 0 auto; text-align: center;">
+        <h2 style="color: #4caf50;">About Us</h2>
+        <p style="font-size: 1.2em; color: #555;">
+          At <strong>KRUSHIMITRA</strong>, we are dedicated to empowering farmers with modern solutions that simplify agriculture. Our platform integrates <strong>knowledge-sharing, financial planning</strong>, and a robust <strong>supply chain</strong> network to help farmers thrive in today's competitive landscape.
+        </p>
+        <div style="margin: 30px auto;">
+          
+        <p style="font-size: 1.1em; line-height: 1.6; color: #555;">
+          Founded with a vision to bridge the gap between technology and agriculture, KRUSHIMITRA focuses on sustainable farming practices, farmer education, and creating direct access to financial resources and buyers.
+        </p>
+      </div>
+      <div class="social-icons">
+        <h3>Connect With Us</h3>
+        <a href="https://facebook.com/yourprofile" target="_blank" aria-label="Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://twitter.com/yourprofile" target="_blank" aria-label="Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://instagram.com/yourprofile" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://linkedin.com/yourprofile" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+      
+    </section>
+    
+  </main>
+
+  <footer>
+    <p>&copy; 2024 FarmEase. All rights reserved.</p>
+  </footer>
+
+  <script>
+    async function fetchWeather() {
+      const apiKey = 'cd44a9c430a84229ac694040241512';
+      const city = 'Pune';
+      const url = `https://api.openweathermap.org/data/2.5/weather?q=${Pune}&appid=${cd44a9c430a84229ac694040241512}&units=metric`;
+
+      try {
+        const response = await axios.get(url);
+        const weather = response.data;
+        document.getElementById('weather-info').innerHTML = `
+          <p><strong>City:</strong> ${weather.name}</p>
+          <p><strong>Temperature:</strong> ${weather.main.temp} &deg;C</p>
+          <p><strong>Weather:</strong> ${weather.weather[0].description}</p>
+          <p><strong>Humidity:</strong> ${weather.main.humidity}%</p>
+        `;
+      } catch (error) {
+        document.getElementById('weather-info').innerHTML = '<p>Unable to fetch weather data. Please try again later.</p>';
+      }
+    }
+    function openWhatsApp() {
+        const phoneNumber = "8208642432"; 
+        window.open(`https://wa.me/${8208642432}`, '_blank');
+    }
+
+    fetchWeather();
+  </script>
+</body>
+</html>
