@@ -140,6 +140,10 @@
   </footer>
 
   <script>
+    async function getWeather() {
+    const apiKey = "5db6b65fac034451fc52de8f7dd3a30d"; // Replace with your OpenWeatherMap API key
+    const city = document.getElementById("city").value;
+
     if (!city) {
         alert("Please enter a city name.");
         return;
