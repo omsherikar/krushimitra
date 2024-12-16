@@ -36,11 +36,13 @@
     </section>
 
     <section id="weather-section">
-      <div class="weather-info">
-        <h2>Current Weather</h2>
-        <div id="weather-info">
-          <p>Loading weather information...</p>
-        </div>
+     <h1>Weather Information</h1>
+      <input type="text" id="city" placeholder="Enter city name" />
+      <button onclick="getWeather()">Get Weather</button>
+      <div id="weather-container" style="display: none;">
+          <h2 id="city-name"></h2>
+          <p><strong>Temperature:</strong> <span id="temperature"></span>°C</p>
+          <p><strong>Weather:</strong> <span id="weather"></span></p>
       </div>
       <div>
         <video autoplay loop muted style="max-width: 500px;">
