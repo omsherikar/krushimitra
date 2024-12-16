@@ -1,6 +1,6 @@
 <?php
 // Database connection settings
-$servername = "127.0.0.1:3306"; // Change to your server name
+$servername = "127.0.0.1"; // Change to your server name
 $username = "root";        // Replace with your MySQL username
 $password = "@OMsherikar09";            // Replace with your MySQL password
 $dbname = "farmers_contact"; // Name of your database
