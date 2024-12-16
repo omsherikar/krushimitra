@@ -43,6 +43,32 @@ body {
     transform: translateY(-5px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
   }
+#weather-container {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background:linear-gradient(135deg, rgba(76, 175, 80, 0.8), rgba(129, 199, 132, 0.8)), 
+    url('https://source.unsplash.com/1600x900/?farm,agriculture');
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    text-align: left;
+    color: white;
+    max-width: 300px;
+}
+
+#weather-container h2 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+}
+
+#weather-container p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+#weather-container p strong {
+    color: #ffde03;
+}
 
 
   .nav-links li {
